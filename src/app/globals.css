@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background-color: #f73f27;
+  --background-color: #358814;
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -21,7 +21,7 @@ body{
 
 .my-bg {
   /* background: var(--background-color); */
-  background: linear-gradient(to right ,#f74225, #e61312);
+  background: linear-gradient(to right ,#3db80c, #32920c);
 
 }
 

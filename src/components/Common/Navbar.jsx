@@ -5,12 +5,12 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <main className="my-bg  fixed w-full">
-        <div className="container mx-auto my-bg">
+      <nav className="fixed w-full z-10">
+        <div className="container mx-auto">
           <main className="flex justify-between py-10">
             <Link href={"/"} className="text-white text-2xl">
               Logo
-            </Link>
+            </Link> 
             <ul className="flex items-center gap-8 text-white">
               <li>
                 <Link href={"/"}>About Us</Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
             </ul>
           </main>
         </div>
-      </main>
+      </nav>
     </>
   );
 };

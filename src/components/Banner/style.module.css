@@ -1,9 +1,13 @@
 .header {
-  background: linear-gradient(to right, #f74225, #e61312);
+  background: linear-gradient(to right ,#3db80c, #32920c);
   width: 100%;
   display: flex;
   align-items: center;
   overflow: hidden;
+  position: relative;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
 }
 
 .img_box {
@@ -18,7 +22,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #ea1414;
+  background-color: var(--background-color);
   height: 100%;
   width: 100%;
   border-radius: 80px;
@@ -40,7 +44,6 @@
   border: 30px solid rgba(255, 255, 255, 0.1);
   position: absolute;
   z-index: 0;
-
 }
 
 .circle_1 {
@@ -56,6 +59,7 @@
   left: 50%;
   height: 200px;
   width: 200px;
+  z-index: 10;
 }
 
 .circle_3 {

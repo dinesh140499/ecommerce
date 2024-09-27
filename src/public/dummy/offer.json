@@ -1,0 +1,14 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "title": "Product From Organic Farm",
+      "img": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Free Home Delivery",
+      "img": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg"
+    }
+  ]
+}
